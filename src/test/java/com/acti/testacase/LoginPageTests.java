@@ -8,7 +8,7 @@ import com.acti.pages.LoginPage;
 
 public class LoginPageTests extends DriverScript {
 	
-	@Test(priority = 1)
+	@Test
 	public void testLoginPageTitle()
 	{
 		initApplication();
@@ -19,7 +19,7 @@ public class LoginPageTests extends DriverScript {
 		quitDriver();
 	}
 	
-	@Test(priority = 2)
+	@Test
 	public void testActiImageIsDisplayed()
 	{
 		initApplication();
@@ -29,7 +29,7 @@ public class LoginPageTests extends DriverScript {
 		quitDriver();
 	}
 	
-	@Test(priority = 3)
+	@Test
 	public void testForgotPasswordIsDisplayed()
 	{
 		initApplication();
@@ -39,7 +39,7 @@ public class LoginPageTests extends DriverScript {
 		quitDriver();
 	}
 	
-	@Test(priority = 4)
+	@Test
 	public void testLoginFunction()
 	{
 		initApplication();
