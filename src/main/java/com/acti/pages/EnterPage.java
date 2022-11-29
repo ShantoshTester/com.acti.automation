@@ -19,6 +19,7 @@ public class EnterPage extends DriverScript {
 
 	@FindBy(xpath = "//a[@class='userProfileLink username ']") WebElement usernameText;
 	@FindBy(id = "logoutLink") WebElement logoutLink;
+	@FindBy(xpath = "//a[@class='content tasks']") WebElement taskMenu;
 
 //************************************************* Page Initialization *******************************************//
 
@@ -28,6 +29,11 @@ public class EnterPage extends DriverScript {
 	}
 
 //************************************************* Page Method/Actions *******************************************//
+	
+	public void clickTaskMenu()
+	{
+		taskMenu.click();
+	}
 	
 	public String verifyUserLoggedIn()
 	{
