@@ -27,11 +27,11 @@ public class LoginPageTests extends BaseTest {
 		Assert.assertTrue(flag);
 	}
 	
-	@Test
-	public void testLoginFunction()
+	@Test(dataProvider = "actilogin")
+	public void testLoginFunction(String username, String password)
 	{	
-		lp.enterUsername("admin");
-		lp.enterPassword("manager");
+		lp.enterUsername(username);
+		lp.enterPassword(password);
 		lp.clickLogin();
 		String expected = "John Doe";
 		String actual = ep.verifyUserLoggedIn();

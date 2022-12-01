@@ -1,29 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-24T02:59:39Z" name="Default suite" finished-at="2022-11-24T03:00:11Z" duration-ms="32294">
+  <suite started-at="2022-12-01T02:48:42Z" name="Suite" finished-at="2022-12-01T02:49:57Z" duration-ms="75117">
     <groups>
     </groups>
-    <test started-at="2022-11-24T02:59:39Z" name="Default test" finished-at="2022-11-24T03:00:11Z" duration-ms="32294">
-      <class name="com.acti.testacase.LoginPageTests">
-        <test-method signature="testLoginPageTitle()[pri:1, instance:com.acti.testacase.LoginPageTests@12d2ce03]" started-at="2022-11-24T02:59:39Z" name="testLoginPageTitle" finished-at="2022-11-24T02:59:46Z" duration-ms="6842" status="PASS">
+    <test started-at="2022-12-01T02:48:42Z" name="Test" finished-at="2022-12-01T02:49:57Z" duration-ms="75117">
+      <class name="com.acti.testacase.TaskPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:48:43Z" name="setUp" finished-at="2022-12-01T02:48:50Z" duration-ms="7315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginPageTitle -->
-        <test-method signature="testActiImageIsDisplayed()[pri:2, instance:com.acti.testacase.LoginPageTests@12d2ce03]" started-at="2022-11-24T02:59:46Z" name="testActiImageIsDisplayed" finished-at="2022-11-24T02:59:53Z" duration-ms="6520" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:48:50Z" name="testCreateCustomer" data-provider="actilogin" finished-at="2022-12-01T02:49:00Z" duration-ms="9177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:00Z" name="tearDown" finished-at="2022-12-01T02:49:00Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:00Z" name="setUp" finished-at="2022-12-01T02:49:06Z" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:06Z" name="testDeleteCustomer" data-provider="actilogin" finished-at="2022-12-01T02:49:22Z" duration-ms="15461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:22Z" name="tearDown" finished-at="2022-12-01T02:49:22Z" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.acti.testacase.TaskPageTests -->
+      <class name="com.acti.testacase.LoginPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:22Z" name="setUp" finished-at="2022-12-01T02:49:28Z" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testActiImageIsDisplayed()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:28Z" name="testActiImageIsDisplayed" finished-at="2022-12-01T02:49:28Z" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testActiImageIsDisplayed -->
-        <test-method signature="testForgotPasswordIsDisplayed()[pri:3, instance:com.acti.testacase.LoginPageTests@12d2ce03]" started-at="2022-11-24T02:59:53Z" name="testForgotPasswordIsDisplayed" finished-at="2022-11-24T02:59:59Z" duration-ms="6098" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:28Z" name="tearDown" finished-at="2022-12-01T02:49:28Z" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:28Z" name="setUp" finished-at="2022-12-01T02:49:35Z" duration-ms="6245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPasswordIsDisplayed()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:35Z" name="testForgotPasswordIsDisplayed" finished-at="2022-12-01T02:49:35Z" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPasswordIsDisplayed -->
-        <test-method signature="testLoginFunction()[pri:4, instance:com.acti.testacase.LoginPageTests@12d2ce03]" started-at="2022-11-24T02:59:59Z" name="testLoginFunction" finished-at="2022-11-24T03:00:11Z" duration-ms="12775" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:35Z" name="tearDown" finished-at="2022-12-01T02:49:35Z" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:35Z" name="setUp" finished-at="2022-12-01T02:49:41Z" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFunction(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:41Z" name="testLoginFunction" data-provider="actilogin" finished-at="2022-12-01T02:49:46Z" duration-ms="4683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFunction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:46Z" name="tearDown" finished-at="2022-12-01T02:49:46Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:46Z" name="setUp" finished-at="2022-12-01T02:49:57Z" duration-ms="10513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageTitle()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:57Z" name="testLoginPageTitle" finished-at="2022-12-01T02:49:57Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:57Z" name="tearDown" finished-at="2022-12-01T02:49:57Z" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.acti.testacase.LoginPageTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
