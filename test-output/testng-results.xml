@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-01T02:48:42Z" name="Suite" finished-at="2022-12-01T02:49:57Z" duration-ms="75117">
+  <suite started-at="2022-12-02T02:35:59Z" name="Default suite" finished-at="2022-12-02T02:36:37Z" duration-ms="37839">
     <groups>
     </groups>
-    <test started-at="2022-12-01T02:48:42Z" name="Test" finished-at="2022-12-01T02:49:57Z" duration-ms="75117">
+    <test started-at="2022-12-02T02:35:59Z" name="Default test" finished-at="2022-12-02T02:36:37Z" duration-ms="37839">
       <class name="com.acti.testacase.TaskPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:48:43Z" name="setUp" finished-at="2022-12-01T02:48:50Z" duration-ms="7315" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:35:59Z" name="setupReport" finished-at="2022-12-02T02:35:59Z" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:00Z" name="setUp" finished-at="2022-12-02T02:36:07Z" duration-ms="7087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:48:50Z" name="testCreateCustomer" data-provider="actilogin" finished-at="2022-12-01T02:49:00Z" duration-ms="9177" status="PASS">
+        <test-method signature="testCreateCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:07Z" name="testCreateCustomer" data-provider="actilogin" finished-at="2022-12-02T02:36:16Z" duration-ms="8616" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +31,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:00Z" name="tearDown" finished-at="2022-12-01T02:49:00Z" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:16Z" name="tearDown" finished-at="2022-12-02T02:36:17Z" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:00Z" name="setUp" finished-at="2022-12-01T02:49:06Z" duration-ms="6580" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:17Z" name="setUp" finished-at="2022-12-02T02:36:23Z" duration-ms="6167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDeleteCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:06Z" name="testDeleteCustomer" data-provider="actilogin" finished-at="2022-12-01T02:49:22Z" duration-ms="15461" status="PASS">
+        <test-method signature="testDeleteCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:23Z" name="testDeleteCustomer" data-provider="actilogin" finished-at="2022-12-02T02:36:37Z" duration-ms="13878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,73 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@21ba0741]" started-at="2022-12-01T02:49:22Z" name="tearDown" finished-at="2022-12-01T02:49:22Z" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:37Z" name="tearDown" finished-at="2022-12-02T02:36:37Z" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.acti.testacase.TaskPageTests -->
-      <class name="com.acti.testacase.LoginPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:22Z" name="setUp" finished-at="2022-12-01T02:49:28Z" duration-ms="6103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testActiImageIsDisplayed()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:28Z" name="testActiImageIsDisplayed" finished-at="2022-12-01T02:49:28Z" duration-ms="70" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testActiImageIsDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:28Z" name="tearDown" finished-at="2022-12-01T02:49:28Z" duration-ms="197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:28Z" name="setUp" finished-at="2022-12-01T02:49:35Z" duration-ms="6245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testForgotPasswordIsDisplayed()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:35Z" name="testForgotPasswordIsDisplayed" finished-at="2022-12-01T02:49:35Z" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForgotPasswordIsDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:35Z" name="tearDown" finished-at="2022-12-01T02:49:35Z" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:35Z" name="setUp" finished-at="2022-12-01T02:49:41Z" duration-ms="6411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginFunction(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:41Z" name="testLoginFunction" data-provider="actilogin" finished-at="2022-12-01T02:49:46Z" duration-ms="4683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginFunction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:46Z" name="tearDown" finished-at="2022-12-01T02:49:46Z" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:46Z" name="setUp" finished-at="2022-12-01T02:49:57Z" duration-ms="10513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageTitle()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:57Z" name="testLoginPageTitle" finished-at="2022-12-01T02:49:57Z" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.LoginPageTests@58ce9668]" started-at="2022-12-01T02:49:57Z" name="tearDown" finished-at="2022-12-01T02:49:57Z" duration-ms="265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.acti.testacase.LoginPageTests -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
