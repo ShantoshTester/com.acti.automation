@@ -6,8 +6,9 @@
       <class name="com.acti.testacase.TaskPageTests">
         <methods>
           <include name="tearDown"/>
+          <include name="setupReport"/>
           <include name="setUp"/>
-          <include name="testDeleteCustomer" invocation-numbers="0"/>
+          <include name="testDeleteCustomerFail" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.acti.testacase.TaskPageTests -->
     </classes>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-02T02:35:59Z" name="Default suite" finished-at="2022-12-02T02:36:37Z" duration-ms="37839">
+  <suite started-at="2022-12-03T02:57:02Z" name="Default suite" finished-at="2022-12-03T02:58:40Z" duration-ms="98178">
     <groups>
     </groups>
-    <test started-at="2022-12-02T02:35:59Z" name="Default test" finished-at="2022-12-02T02:36:37Z" duration-ms="37839">
+    <test started-at="2022-12-03T02:57:02Z" name="Default test" finished-at="2022-12-03T02:58:40Z" duration-ms="98178">
       <class name="com.acti.testacase.TaskPageTests">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:35:59Z" name="setupReport" finished-at="2022-12-02T02:35:59Z" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:02Z" name="setupReport" finished-at="2022-12-03T02:57:02Z" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:00Z" name="setUp" finished-at="2022-12-02T02:36:07Z" duration-ms="7087" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:03Z" name="setUp" finished-at="2022-12-03T02:57:10Z" duration-ms="7140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:07Z" name="testCreateCustomer" data-provider="actilogin" finished-at="2022-12-02T02:36:16Z" duration-ms="8616" status="PASS">
+        <test-method signature="testCreateCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:10Z" name="testCreateCustomer" data-provider="actilogin" finished-at="2022-12-03T02:57:19Z" duration-ms="8997" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,15 +31,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:16Z" name="tearDown" finished-at="2022-12-02T02:36:17Z" duration-ms="721" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:19Z" name="tearDown" finished-at="2022-12-03T02:57:21Z" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateCustomer status=SUCCESS method=TaskPageTests.testCreateCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:17Z" name="setUp" finished-at="2022-12-02T02:36:23Z" duration-ms="6167" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:22Z" name="setUp" finished-at="2022-12-03T02:57:28Z" duration-ms="6233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDeleteCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:23Z" name="testDeleteCustomer" data-provider="actilogin" finished-at="2022-12-02T02:36:37Z" duration-ms="13878" status="PASS">
+        <test-method signature="testDeleteCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:28Z" name="testDeleteCustomer" data-provider="actilogin" finished-at="2022-12-03T02:57:42Z" duration-ms="14027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +62,115 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.acti.testacase.TaskPageTests@30c93896]" started-at="2022-12-02T02:36:37Z" name="tearDown" finished-at="2022-12-02T02:36:37Z" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:57:42Z" name="tearDown" finished-at="2022-12-03T02:58:00Z" duration-ms="18364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteCustomer status=SUCCESS method=TaskPageTests.testDeleteCustomer(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:58:00Z" name="setUp" finished-at="2022-12-03T02:58:06Z" duration-ms="5759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteCustomerFail(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:58:06Z" name="testDeleteCustomerFail" data-provider="actilogin" finished-at="2022-12-03T02:58:21Z" duration-ms="15370" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filteredContainer']//div[@class='title']"}
+  (Session info: chrome=108.0.5359.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1826LOER', ip: '172.24.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.71, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34e9624d3e3a6968759d34675a5b49f4
+*** Element info: {Using=xpath, value=//div[@class='filteredContainer']//div[@class='title']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='filteredContainer']//div[@class='title']"}
+  (Session info: chrome=108.0.5359.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1826LOER', ip: '172.24.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.71, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34e9624d3e3a6968759d34675a5b49f4
+*** Element info: {Using=xpath, value=//div[@class='filteredContainer']//div[@class='title']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at com.acti.pages.TaskPage.clickSearchedCustomer(TaskPage.java:74)
+at com.acti.testacase.TaskPageTests.testDeleteCustomerFail(TaskPageTests.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomerFail -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8]" started-at="2022-12-03T02:58:21Z" name="tearDown" finished-at="2022-12-03T02:58:40Z" duration-ms="18660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteCustomerFail status=FAILURE method=TaskPageTests.testDeleteCustomerFail(java.lang.String, java.lang.String)[pri:0, instance:com.acti.testacase.TaskPageTests@338c99c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
