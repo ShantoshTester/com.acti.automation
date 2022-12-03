@@ -30,7 +30,7 @@ public class BaseTest extends DriverScript {
 	@BeforeSuite
 	public void setupReport()
 	{
-		ExtentHtmlReporter extent = new ExtentHtmlReporter("./atreports/atreport.html");
+		ExtentHtmlReporter extent = new ExtentHtmlReporter("./atreports/atreport"+System.currentTimeMillis()+".html");
 		report = new ExtentReports();
 		report.attachReporter(extent);
 	}
